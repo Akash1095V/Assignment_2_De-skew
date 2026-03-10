@@ -1,2 +1,2 @@
-var g_data = {"4":[3,"dut",1],"3":[-1,"tb_deskew",1]};
+var g_data = {"6":[5,"inf",1],"7":[5,"dut",1],"5":[-1,"tb_deskew",1],"8":[-1,"tb_deskew_sv_unit",1]};
 processInstLinks(g_data);
