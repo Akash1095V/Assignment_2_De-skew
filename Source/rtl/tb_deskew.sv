@@ -12,14 +12,9 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 // Including the testbench components
-`include "transaction.sv"
+`include "deskew.sv"
 `include "deskew_inf.sv"
-`include "generator.sv"
-`include "driver.sv"
-`include "monitor.sv"
-`include "scoreboard.sv"
-`include "environment.sv"
-`include "test.sv"
+import sv_test::*;
 
 module tb_deskew;
   logic i_clk;

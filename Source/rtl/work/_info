@@ -54,6 +54,12 @@ R0
 R0
 R0
 R0
+R0
+R0
+R0
+R0
+R0
+R0
 !s11f MIXED_VERSIONS
 13
 !s112 1.1
@@ -63,144 +69,170 @@ R0
 cModel Technology
 Z1 d/home/akash/Documents/Assignments/Assignment_2_De-skew/Source/rtl
 T_opt
-Z2 !s11d tb_deskew_sv_unit /home/akash/Documents/Assignments/Assignment_2_De-skew/Source/rtl/work 1 deskew_inf 1 /home/akash/Documents/Assignments/Assignment_2_De-skew/Source/rtl/work 
-!s110 1773131219
-V8T=0V16D[EfPImARmj74^1
-Z3 04 9 4 work tb_deskew fast 0
-=1-000ae431a4f1-69afd5d3-9e0f0-69f06
-Z4 !s124 OEM100
+!s11d sv_test /home/akash/Documents/Assignments/Assignment_2_De-skew/Source/rtl/work 1 deskew_inf 1 /home/akash/Documents/Assignments/Assignment_2_De-skew/Source/rtl/work 
+!s110 1773211311
+VNI@^2Q`^ZCGJ]RfdG1N390
+Z2 04 9 4 work tb_deskew fast 0
+=1-000ae431a4f1-69b10eaf-8761a-71b83
+Z3 !s124 OEM100
 o-quiet -auto_acc_if_foreign -work work +acc
-Z5 tCvgOpt 0
+Z4 tCvgOpt 0
 n@_opt
-Z6 OL;O;2021.2_1;73
+Z5 OL;O;2021.2_1;73
+R1
 T_opt1
-R2
+!s11d tb_deskew_sv_unit /home/akash/Documents/Assignments/Assignment_2_De-skew/Source/rtl/work 1 deskew_inf 1 /home/akash/Documents/Assignments/Assignment_2_De-skew/Source/rtl/work 
 !s110 1773131076
 VnoPa86bIRY?a]ZkTh7:l62
-R3
+R2
 =1-000ae431a4f1-69afd543-eb92a-69df2
-R4
+R3
 o-quiet -auto_acc_if_foreign -work work
-R5
+R4
 n@_opt1
-R6
+R5
 R1
 vdeskew
-Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z8 !s110 1773131214
+Z6 !s105 tb_deskew_sv_unit
+Z7 DXx4 work 17 tb_deskew_sv_unit 0 22 cGa8[M```BV]=i:HX<6]<0
+Z8 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z9 !s110 1773211495
 !i10b 1
 !s100 WGz`MjMNl9S4jBQND0JAT3
-Ife5V_gdPiSe6ol3Wb2OSe0
+IVkU>L^OD;35BdSN?;`1ME1
 S1
 R1
 w1771930191
 8deskew.sv
-Fdeskew.sv
-!i122 57
+Z10 Fdeskew.sv
+!i122 76
 L0 15 131
-Z9 VDg1SIo80bB@j0V0VzS_@n1
-Z10 OL;L;2021.2_1;73
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2021.2_1;73
 r1
 !s85 0
 31
-Z11 !s108 1773131214.000000
-Z12 !s107 test.sv|environment.sv|scoreboard.sv|monitor.sv|driver.sv|generator.sv|deskew_inf.sv|transaction.sv|tb_deskew.sv|deskew.sv|
-Z13 !s90 -reportprogress|300|-sv|+cover=bcestf|deskew.sv|tb_deskew.sv|
+Z13 !s108 1773211495.000000
+!s107 deskew_inf.sv|deskew.sv|tb_deskew.sv|
+Z14 !s90 tb_deskew.sv|
 !i113 0
-Z14 !s102 +cover=bcestf
-Z15 o-sv +cover=bcestf -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R5
+Z15 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
 Ydeskew_inf
+R6
 R7
-Z16 DXx4 work 17 tb_deskew_sv_unit 0 22 9E?]mmBYQhNbg^LJ7fYIF1
 R8
 R9
-r1
-!s85 0
 !i10b 1
 !s100 [9MXE`6>kN>3UPa@FJ:UN0
-IUGJogH8N40bZRZXW=Gh4W0
-Z17 !s105 tb_deskew_sv_unit
+IU1ZHnJ5RSWmULFablQ<;71
 S1
 R1
 w1773123914
 8deskew_inf.sv
-Z18 Fdeskew_inf.sv
-!i122 57
+Z16 Fdeskew_inf.sv
+!i122 76
 L0 9 0
-R10
-31
 R11
 R12
-R13
-!i113 0
-R14
-R15
-R5
-vtb_deskew
-R7
-R16
-R8
-R9
 r1
 !s85 0
-!i10b 1
-!s100 8F]CXjBoV`@N@4N7<@kLX3
-Ig?T2Ig41Y8Tc1eecc9FCo3
-R17
-S1
-R1
-w1773124777
-Z19 8tb_deskew.sv
-Z20 Ftb_deskew.sv
-!i122 57
-L0 24 31
-R10
 31
-R11
-R12
 R13
-!i113 0
+Z17 !s107 deskew_inf.sv|deskew.sv|tb_deskew.sv|
 R14
+!i113 0
 R15
-R5
-Xtb_deskew_sv_unit
+R4
+Xsv_test
 !s115 deskew_inf
-R7
 R8
-V9E?]mmBYQhNbg^LJ7fYIF1
-r1
-!s85 0
+!s110 1773211490
 !i10b 1
-!s100 NeOhHZhNBLe@5S:7_Kn^;0
-I9E?]mmBYQhNbg^LJ7fYIF1
-!i103 1
+!s100 C;DXCUzHAHP]<I18WLeok3
+IV2nd8UD<G=kYQB4T536Zn3
 S1
 R1
-w1773128637
-R19
-R20
+w1773211467
+8sv_test.sv
+Fsv_test.sv
 Ftransaction.sv
-R18
 Fgenerator.sv
 Fdriver.sv
 Fmonitor.sv
 Fscoreboard.sv
 Fenvironment.sv
 Ftest.sv
-!i122 57
-Z21 L0 10 0
-R10
-31
-R11
+!i122 75
+L0 6 0
+VV2nd8UD<G=kYQB4T536Zn3
 R12
-R13
+r1
+!s85 0
+31
+!s108 1773211490.000000
+!s107 test.sv|environment.sv|scoreboard.sv|monitor.sv|driver.sv|generator.sv|transaction.sv|sv_test.sv|
+!s90 sv_test.sv|
 !i113 0
-R14
 R15
-R5
-Xtransaction_sv_unit
+R4
+vtb_deskew
+R8
+Z18 DXx4 work 7 sv_test 0 22 V2nd8UD<G=kYQB4T536Zn3
 R7
+R9
+R11
+r1
+!s85 0
+!i10b 1
+!s100 1JPJ7Czlm<d5CI^<Fik=`2
+IfADIN=8iGafgO36A8P?]63
+R6
+S1
+R1
+Z19 w1773210262
+Z20 8tb_deskew.sv
+Z21 Ftb_deskew.sv
+!i122 76
+L0 19 31
+R12
+31
+R13
+R17
+R14
+!i113 0
+R15
+R4
+Xtb_deskew_sv_unit
+R8
+R18
+R9
+VcGa8[M```BV]=i:HX<6]<0
+r1
+!s85 0
+!i10b 1
+!s100 a8C;]oHR^>T_=__ZC<1^b2
+IcGa8[M```BV]=i:HX<6]<0
+!i103 1
+S1
+R1
+R19
+R20
+R21
+R10
+R16
+!i122 76
+L0 17 0
+R12
+31
+R13
+R17
+R14
+!i113 0
+R15
+R4
+Xtransaction_sv_unit
+R8
 !s110 1773126143
 V1Y>i]0A]YTGRUAIG:ge@;1
 r1
@@ -215,12 +247,12 @@ w1773049298
 8/home/akash/Documents/Assignments/Assignment_2_De-skew/Source/rtl/transaction.sv
 F/home/akash/Documents/Assignments/Assignment_2_De-skew/Source/rtl/transaction.sv
 !i122 41
-R21
-R10
+L0 10 0
+R12
 31
 !s108 1773126143.000000
 !s107 /home/akash/Documents/Assignments/Assignment_2_De-skew/Source/rtl/transaction.sv|
 !s90 -reportprogress|300|-work|work|/home/akash/Documents/Assignments/Assignment_2_De-skew/Source/rtl/transaction.sv|
 !i113 0
 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R5
+R4

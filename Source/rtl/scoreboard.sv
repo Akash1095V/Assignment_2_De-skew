@@ -12,7 +12,7 @@ class scoreboard;
   
   // IPC for monitor to scoreboard communication
   mailbox #(transaction) mon2scb;
-  int num_cases = 20;
+  int num_cases = 500;
   
   // Counters to keep a track of no of pass test cases and failed test cases.
   int pass_count = 0;

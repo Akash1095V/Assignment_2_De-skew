@@ -20,7 +20,7 @@ class test;
   task run();
     $display("[TEST] De-skew Test Bench with Directed and Randomized tests");
 
-    env.set_num_cases(240);
+    env.set_num_cases(500);
     env.run();
 
     $display("[TEST] Completed.");
